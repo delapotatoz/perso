@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anne-Charlotte · Art-thérapeute à Lille</title>
+  <meta name="description" content="Anne-Charlotte, art-thérapeute à Lille. Séances individuelles et ateliers pour enfants, adolescents et adultes. Aucun talent artistique requis : seulement l'envie. Premier échange offert.">
+  <meta name="theme-color" content="#F6EFE4">
+  <meta property="og:title" content="Anne-Charlotte · Art-thérapeute à Lille">
+  <meta property="og:description" content="Ce que les mots ne savent pas dire, vos mains le savent déjà.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23C4553A' d='M32 4c14 0 28 9 28 26 0 16-12 30-29 30S4 48 4 32 17 4 32 4z'/%3E%3Ccircle cx='22' cy='24' r='6' fill='%23E3A63B'/%3E%3Ccircle cx='40' cy='22' r='5' fill='%232B3A67'/%3E%3Ccircle cx='42' cy='40' r='6' fill='%238FA98B'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,100;1,9..144,300..700,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Anne-Charlotte · Art-thérapie",
+    "description": "Art-thérapeute à Lille : séances individuelles et ateliers collectifs pour enfants, adolescents et adultes.",
+    "areaServed": "Lille",
+    "address": { "@type": "PostalAddress", "addressLocality": "Lille", "postalCode": "59000", "addressCountry": "FR" },
+    "priceRange": "35€ - 60€"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <!-- Grain de papier global -->
+  <svg class="defs" aria-hidden="true" width="0" height="0">
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="4"/><feDisplacementMap in="SourceGraphic" scale="7"/></filter>
+  </svg>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="top">
+    <a href="#top" class="brand" aria-label="Anne-Charlotte, art-thérapie à Lille — accueil">
+      <span class="brand__name">Anne-Charlotte</span>
+      <span class="brand__sub">art-thérapie · Lille</span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="sr">Menu</span></button>
+    <nav id="menu" class="nav__menu" aria-label="Navigation principale">
+      <a href="#approche">L'approche</a>
+      <a href="#pour-qui">Pour qui</a>
+      <a href="#seance">Une séance</a>
+      <a href="#moi">Qui suis-je</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#rdv" class="btn btn--small">Prendre rendez-vous</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="blob blob--1" aria-hidden="true"></div>
+      <div class="blob blob--2" aria-hidden="true"></div>
+      <div class="blob blob--3" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="kicker reveal">Art-thérapeute à Lille</p>
+        <h1 id="hero-title" class="hero__title">
+          <span class="line reveal">Ce que les mots</span>
+          <span class="line reveal">ne savent pas dire,</span>
+          <span class="line reveal"><em>vos mains</em> le savent</span>
+          <span class="line reveal">déjà.</span>
+        </h1>
+        <p class="hero__lead reveal">
+          Un atelier doux, au cœur de Lille, pour déposer ce qui pèse,
+          créer sans juger — et repartir un peu plus léger·e.
+          <strong>Aucun talent artistique requis.</strong> Seulement l'envie.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#rdv" class="btn">Réserver ma première rencontre</a>
+          <a href="#approche" class="link-hand">découvrir l'approche ↓</a>
+        </div>
+      </div>
+
+      <p class="hero__hint" aria-hidden="true">
+        <svg viewBox="0 0 80 50" width="60"><path d="M5 40 C 20 5, 45 5, 70 25" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M60 16 L71 26 L58 31" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Allez-y, peignez&nbsp;ici.<br>Personne ne juge.</span>
+      </p>
+      <button class="hero__clear" type="button">✦ page blanche</button>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>lâcher prise</span><i>✺</i><span>s'exprimer autrement</span><i>✺</i><span>se retrouver</span><i>✺</i><span>oser</span><i>✺</i><span>respirer</span><i>✺</i><span>se relier</span><i>✺</i><span>transformer</span><i>✺</i>
+        <span>lâcher prise</span><i>✺</i><span>s'exprimer autrement</span><i>✺</i><span>se retrouver</span><i>✺</i><span>oser</span><i>✺</i><span>respirer</span><i>✺</i><span>se relier</span><i>✺</i><span>transformer</span><i>✺</i>
+      </div>
+    </div>
+
+    <!-- ============ APPROCHE ============ -->
+    <section class="section approach" id="approche" aria-labelledby="approche-title">
+      <div class="wrap">
+        <p class="kicker reveal">L'art-thérapie</p>
+        <h2 id="approche-title" class="h2 reveal">Remettons les choses <span class="brush">à leur place</span>.</h2>
+
+        <ul class="not-is">
+          <li class="reveal">
+            <span class="not-is__no">Ce n'est pas <s>un cours de dessin</s></span>
+            <span class="not-is__yes">c'est un espace pour <em>vous</em></span>
+          </li>
+          <li class="reveal">
+            <span class="not-is__no">Ce n'est pas <s>une question de beau</s></span>
+            <span class="not-is__yes">c'est une question de <em>vrai</em></span>
+          </li>
+          <li class="reveal">
+            <span class="not-is__no">Ce n'est pas <s>une interprétation de vos œuvres</s></span>
+            <span class="not-is__yes">c'est <em>vous</em> qui leur donnez du sens</span>
+          </li>
+        </ul>
+
+        <div class="approach__body">
+          <p class="reveal">
+            L'art-thérapie utilise la création — peinture, argile, collage, écriture — comme un
+            <strong>chemin de traverse</strong> vers ce qui se vit à l'intérieur.
+            Quand les mots tournent en rond, la matière, elle, avance.
+          </p>
+          <p class="reveal">
+            Ici, pas de bonne ou de mauvaise réponse. Un trait tremblant raconte autant qu'un chef-d'œuvre.
+            Je vous accompagne pour que ce qui émerge sur le papier puisse, doucement, se transformer en vous.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PALETTE INTERACTIVE ============ -->
+    <section class="section mood" id="humeur" aria-labelledby="mood-title">
+      <div class="mood__wash" aria-hidden="true"></div>
+      <div class="wrap mood__inner">
+        <div>
+          <p class="kicker reveal">Petite expérience</p>
+          <h2 id="mood-title" class="h2 reveal">Quelle couleur vous habite <em>aujourd'hui</em>&nbsp;?</h2>
+          <p class="reveal mood__help">Ne réfléchissez pas trop. Laissez votre main choisir.</p>
+          <div class="palette reveal" role="radiogroup" aria-label="Choisissez une couleur">
+            <button class="drop" role="radio" aria-checked="false" data-mood="brique"  style="--c:#C4553A" aria-label="Rouge brique"></button>
+            <button class="drop" role="radio" aria-checked="false" data-mood="ocre"    style="--c:#E3A63B" aria-label="Ocre soleil"></button>
+            <button class="drop" role="radio" aria-checked="false" data-mood="rose"    style="--c:#E7A9A0" aria-label="Rose poudré"></button>
+            <button class="drop" role="radio" aria-checked="false" data-mood="sauge"   style="--c:#7F9C7A" aria-label="Vert sauge"></button>
+            <button class="drop" role="radio" aria-checked="false" data-mood="indigo"  style="--c:#2B3A67" aria-label="Bleu indigo"></button>
+            <button class="drop" role="radio" aria-checked="false" data-mood="brume"   style="--c:#9A9A9E" aria-label="Gris brume"></button>
+          </div>
+        </div>
+        <div class="mood__card" aria-live="polite">
+          <p class="mood__name">Choisissez une goutte…</p>
+          <p class="mood__text">Chaque couleur porte un message. Il n'y a pas de mauvais choix — seulement le vôtre, maintenant.</p>
+          <a href="#rdv" class="link-hand mood__cta" hidden>cette couleur a une histoire, venez me la raconter →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ POUR QUI ============ -->
+    <section class="section who" id="pour-qui" aria-labelledby="who-title">
+      <div class="wrap">
+        <p class="kicker reveal">Pour qui&nbsp;?</p>
+        <h2 id="who-title" class="h2 reveal">Pour toutes celles et ceux qui ont <span class="brush brush--ocre">quelque chose à déposer</span>.</h2>
+
+        <div class="who__grid">
+          <article class="who__card reveal" style="--c:#E3A63B; --r:-2deg">
+            <span class="who__age">dès 5 ans</span>
+            <h3>Enfants</h3>
+            <p>Timidité, colères, émotions trop grandes, séparation des parents, difficultés à l'école… L'enfant joue, crée, et se dit sans avoir à tout expliquer.</p>
+          </article>
+          <article class="who__card reveal" style="--c:#E7A9A0; --r:1.5deg">
+            <span class="who__age">12 – 18 ans</span>
+            <h3>Adolescents</h3>
+            <p>Un lieu hors des notes et des regards, où l'on peut être en colère, perdu·e, en construction. Ici on ne force rien — on essaie.</p>
+          </article>
+          <article class="who__card reveal" style="--c:#7F9C7A; --r:-1deg">
+            <span class="who__age">adultes</span>
+            <h3>Adultes</h3>
+            <p>Stress, anxiété, épuisement, deuil, transitions de vie, perte de confiance… ou simplement l'envie de se retrouver, loin de la tête qui pense trop.</p>
+          </article>
+          <article class="who__card reveal" style="--c:#2B3A67; --r:2deg">
+            <span class="who__age">seniors</span>
+            <h3>Aînés</h3>
+            <p>Garder le lien, stimuler la mémoire et les sens, partager ses souvenirs autrement. Créer n'a pas d'âge — la joie non plus.</p>
+          </article>
+        </div>
+
+        <ul class="tags reveal" aria-label="Thématiques accompagnées">
+          <li>anxiété &amp; stress</li><li>burn-out</li><li>estime de soi</li><li>deuil</li><li>séparation</li>
+          <li>hypersensibilité</li><li>maternité &amp; périnatalité</li><li>gestion des émotions</li><li>maladie chronique</li><li>envie de changement</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MÉDIATIONS ============ -->
+    <section class="section media" aria-labelledby="media-title">
+      <div class="wrap">
+        <p class="kicker reveal">Les matières</p>
+        <h2 id="media-title" class="h2 reveal">Choisir sa matière,<br>c'est déjà <em>se dire</em>.</h2>
+        <p class="media__intro reveal">Tout le matériel est fourni. Vous venez comme vous êtes — même en jean préféré, on a des tabliers.</p>
+      </div>
+      <div class="media__rail" tabindex="0" aria-label="Les médiations proposées (défilement horizontal)">
+        <article class="swatch reveal" style="--a:#E3A63B; --b:#C4553A">
+          <div class="swatch__art swatch__art--paint" aria-hidden="true"></div>
+          <h3>Peinture &amp; aquarelle</h3>
+          <p>Laisser couler, déborder, recouvrir. L'eau décide un peu — et c'est très bien.</p>
+        </article>
+        <article class="swatch reveal" style="--a:#B7795A; --b:#6E4431">
+          <div class="swatch__art swatch__art--clay" aria-hidden="true"></div>
+          <h3>Modelage &amp; argile</h3>
+          <p>Pétrir, écraser, façonner. Les mains savent calmer ce que la tête agite.</p>
+        </article>
+        <article class="swatch reveal" style="--a:#E7A9A0; --b:#2B3A67">
+          <div class="swatch__art swatch__art--collage" aria-hidden="true"></div>
+          <h3>Collage</h3>
+          <p>Découper le monde et le réassembler à sa façon. Idéal quand on « ne sait pas dessiner ».</p>
+        </article>
+        <article class="swatch reveal" style="--a:#7F9C7A; --b:#2B3A67">
+          <div class="swatch__art swatch__art--write" aria-hidden="true"><span>il était une fois… moi</span></div>
+          <h3>Écriture créative</h3>
+          <p>Des mots qui jouent plutôt que des mots qui expliquent. Poèmes, lettres jamais envoyées.</p>
+        </article>
+        <article class="swatch reveal" style="--a:#2B3A67; --b:#E3A63B">
+          <div class="swatch__art swatch__art--line" aria-hidden="true"></div>
+          <h3>Dessin intuitif</h3>
+          <p>Un trait, puis un autre. Sans modèle, sans but. Juste suivre ce qui vient.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ UNE SÉANCE ============ -->
+    <section class="section steps" id="seance" aria-labelledby="steps-title">
+      <div class="wrap">
+        <p class="kicker reveal">Comment ça se passe</p>
+        <h2 id="steps-title" class="h2 reveal">Une séance, <em>pas à pas</em>.</h2>
+
+        <div class="steps__path">
+          <svg class="steps__line" viewBox="0 0 100 1000" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M50 0 C 90 120, 10 250, 50 380 S 90 640, 50 760 S 10 900, 50 1000" pathLength="1"/>
+          </svg>
+          <ol class="steps__list">
+            <li class="step reveal">
+              <span class="step__num">01</span>
+              <div>
+                <h3>On se rencontre</h3>
+                <p>Un premier échange téléphonique <strong>offert</strong> de 15 minutes pour faire connaissance, entendre votre demande et voir si l'art-thérapie vous correspond.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">02</span>
+              <div>
+                <h3>On pose le cadre</h3>
+                <p>Au début de chaque séance, un temps pour arriver : comment vous sentez-vous ? Qu'est-ce qui a besoin de place aujourd'hui ?</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">03</span>
+              <div>
+                <h3>Vous créez</h3>
+                <p>Je vous propose une invitation créative — jamais une consigne scolaire. Vous suivez, détournez, ou inventez. C'est votre moment.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">04</span>
+              <div>
+                <h3>On regarde ensemble</h3>
+                <p>Si vous le souhaitez, on accueille ce qui est né : ce que vous ressentez, ce qui surprend. Sans analyse plaquée, avec curiosité et bienveillance.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUI SUIS-JE ============ -->
+    <section class="section about" id="moi" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <figure class="portrait reveal">
+          <!-- Remplacer par une vraie photo : <img src="assets/anne-charlotte.jpg" alt="Anne-Charlotte dans son atelier"> -->
+          <div class="portrait__frame">
+            <div class="portrait__art" aria-hidden="true"><span>AC</span></div>
+          </div>
+          <figcaption>moi, les mains toujours un peu tachées ☺</figcaption>
+        </figure>
+
+        <div class="about__text">
+          <p class="kicker reveal">Qui suis-je&nbsp;?</p>
+          <h2 id="about-title" class="h2 reveal">Bonjour, je suis <span class="brush brush--rose">Anne-Charlotte</span>.</h2>
+          <p class="reveal">
+            Longtemps, j'ai cru qu'il fallait « savoir dessiner » pour avoir le droit de créer.
+            Puis j'ai découvert que la création n'était pas une affaire de talent, mais de <em>présence</em> :
+            un pinceau peut apaiser, une boule d'argile peut dire non, un collage peut ouvrir une porte restée fermée.
+          </p>
+          <p class="reveal">
+            Art-thérapeute formée et diplômée, j'accompagne aujourd'hui enfants, adolescents et adultes dans mon atelier lillois,
+            un lieu lumineux où l'on peut enfin <strong>poser son sac</strong> — au sens propre comme au figuré.
+          </p>
+          <blockquote class="quote reveal">
+            « Je ne regarde pas ce que vous faites. Je regarde ce que ça vous fait. »
+          </blockquote>
+          <ul class="creds reveal">
+            <li>Diplômée en art-thérapie</li>
+            <li>Supervision régulière</li>
+            <li>Respect d'un code de déontologie</li>
+            <li>Confidentialité absolue</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TÉMOIGNAGES ============ -->
+    <!-- Témoignages d'exemple : à remplacer par de vrais retours (avec accord des personnes). -->
+    <section class="section voices" aria-labelledby="voices-title">
+      <div class="wrap">
+        <p class="kicker reveal">Ils et elles en parlent</p>
+        <h2 id="voices-title" class="h2 reveal">Des mots, <em>après</em>.</h2>
+        <div class="voices__grid">
+          <figure class="note reveal" style="--c:#F3D9A4; --r:-3deg">
+            <blockquote>« Je suis arrivée persuadée d'être “nulle en dessin”. Je suis repartie avec une question qui me suivait depuis des années… enfin posée sur une feuille. »</blockquote>
+            <figcaption>Claire, 41 ans</figcaption>
+          </figure>
+          <figure class="note reveal" style="--c:#F2C9C1; --r:2deg">
+            <blockquote>« Notre fils ne parlait pas de ses colères. Maintenant il les modèle, il les nomme — et il en rit parfois. »</blockquote>
+            <figcaption>Les parents de Léo, 8 ans</figcaption>
+          </figure>
+          <figure class="note reveal" style="--c:#CFDCC8; --r:-1.5deg">
+            <blockquote>« Après mon burn-out, c'était le seul endroit où ma tête se taisait. Une heure de silence intérieur, ça n'a pas de prix. »</blockquote>
+            <figcaption>Thomas, 36 ans</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TARIFS ============ -->
+    <section class="section prices" id="tarifs" aria-labelledby="prices-title">
+      <div class="wrap">
+        <p class="kicker reveal">Tarifs</p>
+        <h2 id="prices-title" class="h2 reveal">Simple, <em>transparent</em>.</h2>
+        <div class="prices__grid">
+          <article class="price reveal">
+            <h3>Premier échange</h3>
+            <p class="price__amount">offert</p>
+            <p class="price__meta">15 min · par téléphone</p>
+            <p>Pour se découvrir, poser vos questions et sentir si c'est le bon moment.</p>
+          </article>
+          <article class="price price--star reveal">
+            <span class="price__badge">le plus choisi</span>
+            <h3>Séance individuelle</h3>
+            <p class="price__amount">60&nbsp;€</p>
+            <p class="price__meta">1 h · adultes</p>
+            <p>Un temps rien qu'à vous, à votre rythme, avec un accompagnement sur mesure.</p>
+          </article>
+          <article class="price reveal">
+            <h3>Enfants &amp; ados</h3>
+            <p class="price__amount">50&nbsp;€</p>
+            <p class="price__meta">45 min · dès 5 ans</p>
+            <p>Un bilan régulier avec les parents, dans le respect de l'espace de l'enfant.</p>
+          </article>
+          <article class="price reveal">
+            <h3>Atelier collectif</h3>
+            <p class="price__amount">35&nbsp;€</p>
+            <p class="price__meta">2 h · 6 personnes max.</p>
+            <p>Créer ensemble, un samedi par mois. Thème différent à chaque atelier.</p>
+          </article>
+        </div>
+        <p class="prices__note reveal">
+          ✦ Certaines mutuelles remboursent tout ou partie des séances : pensez à vérifier votre contrat.
+          ✦ Cartes cadeaux disponibles — offrir du temps pour soi, c'est un joli cadeau.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" aria-labelledby="faq-title">
+      <div class="wrap wrap--narrow">
+        <p class="kicker reveal">Questions fréquentes</p>
+        <h2 id="faq-title" class="h2 reveal">Vous vous demandez peut-être…</h2>
+        <div class="faq__list">
+          <details class="reveal">
+            <summary>Faut-il savoir dessiner&nbsp;?</summary>
+            <p>Pas du tout — et c'est même souvent plus simple quand on ne « sait pas ». Ce qui compte, c'est le chemin, pas le résultat. Personne ne note, personne ne compare.</p>
+          </details>
+          <details class="reveal">
+            <summary>Quelle différence avec une psychothérapie&nbsp;?</summary>
+            <p>L'art-thérapie passe d'abord par le faire plutôt que par la parole. Elle peut être un accompagnement à part entière ou un complément à un suivi médical ou psychologique — elle ne le remplace pas.</p>
+          </details>
+          <details class="reveal">
+            <summary>Combien de séances faut-il&nbsp;?</summary>
+            <p>Cela dépend de chacun·e. Certaines personnes viennent quelques séances pour traverser un moment précis, d'autres plusieurs mois. On fait le point ensemble régulièrement, et vous restez libre à tout moment.</p>
+          </details>
+          <details class="reveal">
+            <summary>Que deviennent mes créations&nbsp;?</summary>
+            <p>Elles vous appartiennent. Elles peuvent rester à l'atelier le temps du suivi — pour voir le chemin parcouru — ou repartir avec vous. Elles ne sont jamais montrées sans votre accord.</p>
+          </details>
+          <details class="reveal">
+            <summary>Où se trouve l'atelier&nbsp;?</summary>
+            <p>Au cœur de Lille, facilement accessible en métro et à pied. L'adresse exacte vous est communiquée à la prise de rendez-vous. Des séances en visio sont aussi possibles pour l'écriture et le dessin.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RENDEZ-VOUS ============ -->
+    <section class="section rdv" id="rdv" aria-labelledby="rdv-title">
+      <div class="rdv__splash" aria-hidden="true"></div>
+      <div class="wrap rdv__grid">
+        <div class="rdv__intro">
+          <p class="kicker kicker--light reveal">Prendre rendez-vous</p>
+          <h2 id="rdv-title" class="h2 h2--light reveal">Et si on commençait<br>par <em>une page blanche</em>&nbsp;?</h2>
+          <p class="reveal">
+            Écrivez-moi quelques mots — même maladroits, surtout maladroits.
+            Je vous réponds sous 48&nbsp;h pour convenir de notre premier échange, offert et sans engagement.
+          </p>
+          <ul class="rdv__contact reveal">
+            <!-- Remplacer par les coordonnées réelles -->
+            <li><span>✆</span> <a href="tel:+33600000000">06 00 00 00 00</a></li>
+            <li><span>✉</span> <a href="mailto:bonjour@annecharlotte-arttherapie.fr">bonjour@annecharlotte-arttherapie.fr</a></li>
+            <li><span>⌂</span> Atelier au cœur de Lille · sur rendez-vous</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="rdv-form" novalidate>
+          <div class="form__row">
+            <label>Votre prénom<input name="prenom" autocomplete="given-name" required></label>
+            <label>Téléphone<input name="tel" type="tel" autocomplete="tel"></label>
+          </div>
+          <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+          <fieldset>
+            <legend>Je souhaite…</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="type" value="Premier échange offert" checked><span>un premier échange</span></label>
+              <label class="chip"><input type="radio" name="type" value="Séance adulte"><span>une séance pour moi</span></label>
+              <label class="chip"><input type="radio" name="type" value="Séance enfant / ado"><span>pour mon enfant</span></label>
+              <label class="chip"><input type="radio" name="type" value="Atelier collectif"><span>un atelier collectif</span></label>
+              <label class="chip"><input type="radio" name="type" value="Carte cadeau"><span>offrir une carte cadeau</span></label>
+            </div>
+          </fieldset>
+          <label><span>Quelques mots <span class="opt">(facultatif)</span></span>
+            <textarea name="message" rows="4" placeholder="Ce qui vous amène, vos disponibilités…"></textarea>
+          </label>
+          <button class="btn btn--light" type="submit">Envoyer ma demande ✦</button>
+          <p class="form__status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__brand">Anne-Charlotte<br><span>art-thérapie · Lille</span></p>
+      <p class="footer__line">Fait avec des couleurs, entre les pavés du Vieux-Lille et le ciel du Nord — qui n'est jamais aussi gris qu'on le dit.</p>
+      <p class="footer__legal">© <span id="year">2026</span> · <a href="#">Mentions légales</a> · <a href="#">Confidentialité</a></p>
+    </div>
+  </footer>
+
+  <a href="#rdv" class="float-cta" aria-label="Prendre rendez-vous">✦ Rendez-vous</a>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
